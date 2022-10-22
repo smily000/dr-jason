@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Node on Azure</title>
-</head>
-<body>
-<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-<p>This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.</p>
+<html lang="en">
+ 
+  <head>
+    <meta charset="UTF-8">
+    <title>Danny Map mania</title>
+    <link rel="stylesheet" href="map.css">
+    <script src="map.js"></script>
+  </head>
 
-Additional application functionality includes:<br />
-<a href="fetching-from-server.html">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-<a href="fetching-remote-dog-breeds.html">Accessing Remote Application Programming Interfaces (APIs)</a>
-</body>
+  <body onload= "initstart()"> 
+    <h1>Danny boy game</h1> 
+    Hint: <input id="lol2-id" type="text" value="" size="120" disabled><br><br>
+    Score: <input id="lol-id" type="text" value="" size="2" disabled><br><br> 
+  
+    <div id="ID"></div>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyAJzK0NMdOCF9iZ4Yi6FeifvXHvmgFaVok &callback=initMap&v=weekly"
+    async defer>
+    </script>
+  
+
+  </body>
+
 </html>
